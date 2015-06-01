@@ -1,0 +1,23 @@
+QWidget {
+    background-color: #eeeeee;
+}
+
+QSlider::groove:horizontal {
+    height: 2px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    background-color: #8f8f8f;
+    margin: 2px 0;
+}
+
+
+QSlider::handle:horizontal {
+    background-color: #3f51b5;
+    width: 18px;
+    margin: -8px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+    border-radius: 9px;
+}
+
+QSlider::sub-page:horizontal {
+    height: 2px;
+    background-color: #3f51b5;
+    margin: 2px 0;
+}
