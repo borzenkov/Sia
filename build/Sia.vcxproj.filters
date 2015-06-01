@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\DEV\StudyingProjects\Sia\Sia.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DEV\StudyingProjects\Sia\SiaDriver.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DEV\StudyingProjects\Sia\build\Sia_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInteractorStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plate.cpp" />
+    <ClCompile Include="Head.cpp" />
+    <ClCompile Include="PlateRemeshingAlgorithm.cpp" />
+    <ClCompile Include="MakeAdhering.cpp" />
+    <ClCompile Include="Junction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\DEV\StudyingProjects\Sia\build\ui_Sia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DEV\StudyingProjects\Sia\Sia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInteractorStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plate.h" />
+    <ClInclude Include="Head.h" />
+    <ClInclude Include="PlateRemeshingAlgorithm.h" />
+    <ClInclude Include="MakeAdhering.h" />
+    <ClInclude Include="Junction.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\DEV\StudyingProjects\Sia\CMakeLists.txt" />
+    <CustomBuild Include="C:\DEV\StudyingProjects\Sia\Sia.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{172DCE8D-EC6C-4A69-9C5A-2D2D754A558B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{503B5A0E-D61D-430A-9268-228C62753858}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
